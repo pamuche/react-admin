@@ -14,7 +14,7 @@ import { SaveContextProvider, usePickSaveContext } from './SaveContext';
  *     const controllerProps = useEditController(props);
  *     return (
  *         <EditContextProvider value={controllerProps}>
- *             <MyEditView>
+ *             <MyEditView/>
  *         </EditContextProvider>
  *     );
  * };
